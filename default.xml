@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@github.com:HorizonRoboticsRDK" name="github" />
+
+  <default remote="github" revision="main" sync-c="true" sync-j="4" />
+
+  <project name="hobot-multimedia" path="source/hobot-multimedia" upstream="main" />
+  <project name="hobot-kernel-headers" path="source/hobot-kernel-headers" upstream="main" />
+  <project name="hobot-io-samples" path="source/hobot-io-samples" upstream="main" />
+  <project name="hobot-io"  path="source/hobot-io" upstream="main" />
+  <project name="hobot-hdmi" path="source/hobot-hdmi" upstream="main" />
+  <project name="hobot-dtb" path="source/hobot-dtb" upstream="main" />
+  <project name="hobot-dnn" path="source/hobot-dnn" upstream="main" />
+  <project name="hobot-configs" path="source/hobot-configs" upstream="main" />
+</manifest>
+
