@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/HorizonRoboticsRDK/" name="github" />
+  <remote fetch="https://github.com/HorizonRDK/" name="github" />
 
   <default remote="github" revision="main" sync-c="true" sync-j="32" />
 
+  <project name="bootloader" path="source/bootloader" upstream="main" />
+  <project name="hobot-multimedia-samples" path="source/hobot-multimedia-samples" upstream="main" />
   <project name="hobot-multimedia" path="source/hobot-multimedia" upstream="main" />
   <project name="hobot-multimedia-dev" path="source/hobot-multimedia-dev" upstream="main" />
   <project name="hobot-kernel-headers" path="source/hobot-kernel-headers" upstream="main" />
   <project name="hobot-io-samples" path="source/hobot-io-samples" upstream="main" />
   <project name="hobot-io"  path="source/hobot-io" upstream="main" />
-  <project name="hobot-hdmi" path="source/hobot-hdmi" upstream="main" />
+  <project name="hobot-display" path="source/hobot-display" upstream="main" />
   <project name="hobot-dtb" path="source/hobot-dtb" upstream="main" />
   <project name="hobot-dnn" path="source/hobot-dnn" upstream="main" />
   <project name="hobot-configs" path="source/hobot-configs" upstream="main" />
@@ -21,7 +23,6 @@
   <project name="hobot-utils" path="source/hobot-utils" upstream="main" />
   <project name="hobot-wifi" path="source/hobot-wifi" upstream="main" />
   <project name="kernel" path="source/kernel" upstream="main" />
-
   <project name="rdk-gen" path="." upstream="main" />
 
 </manifest>
